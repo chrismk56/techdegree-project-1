@@ -90,7 +90,72 @@ header {
   transform: scale(1.5);
 }
 
+#hobbies-header { 
+  background: url('images/hobbies.jpg')no-repeat center;
+  background-size: cover;
+  
+}
 
+.hobbies-title { 
+  display: flex;
+  align-items: center;
+  height: 500px;
+
+}
+
+#hobbies-header h1{
+   background-color:rgba(187, 184, 184, 0.7);
+   display: block;
+   margin: 10px auto;
+   padding: 5px;
+   border: 1px solid #000000;
+   border-radius: 5px;
+   transition: all 1s;
+}
+
+#hobbies-header h1:hover {
+  cursor: context-menu;
+  transform: scale(1.5);
+}
+
+#travelling-header { 
+  background: url('images/travelling.jpg') no-repeat center;
+  background-size: contain;
+  background-size: cover;
+  
+}
+
+.travelling-title { 
+  display: flex;
+  align-items: center;
+  height: 500px;
+
+}
+
+#travelling-header h1{
+   background-color:rgba(187, 184, 184, 0.7);
+   display: block;
+   margin: 10px auto;
+   padding: 5px;
+   border: 1px solid #000000;
+   border-radius: 5px;
+   transition: all 1s;
+}
+
+#travelling-header h1:hover {
+  cursor: context-menu;
+  transform: scale(1.5);
+}
+
+.city-pic { 
+  width: 400px;
+  height: 300px;
+  transition: ease .5s;
+}
+
+.city-pic:hover { 
+  transform: scale(1.2);
+}
 
 header {
   line-height: 1.5;
@@ -137,6 +202,21 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: #000000;
+  background-color: #999;
+}
+
+.hobbies-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #eeeeee;
+  border-bottom: 10px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.hobbies-card:hover {
   border-color: #000000;
   background-color: #999;
 }
